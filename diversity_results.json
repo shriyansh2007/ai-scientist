@@ -1,0 +1,24 @@
+{
+  "embedding_model": "gemini-embedding-001",
+  "similarity_threshold": 0.8,
+  "pairwise_comparisons": [
+    {
+      "hypothesis_1": "H-001",
+      "hypothesis_2": "H-002",
+      "cosine_similarity": 0.8712,
+      "potentially_redundant": true
+    },
+    {
+      "hypothesis_1": "H-001",
+      "hypothesis_2": "H-003",
+      "cosine_similarity": 0.9084,
+      "potentially_redundant": true
+    },
+    {
+      "hypothesis_1": "H-002",
+      "hypothesis_2": "H-003",
+      "cosine_similarity": 0.8729,
+      "potentially_redundant": true
+    }
+  ]
+}

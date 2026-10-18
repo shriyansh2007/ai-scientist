@@ -1,0 +1,75 @@
+[
+  {
+    "hypothesis_id": "H-001",
+    "testability": 4,
+    "falsifiability": 5,
+    "mechanism_quality": 4,
+    "experimental_feasibility": 4,
+    "evidence_status": "not_provided",
+    "strengths": [
+      "The hypothesis provides clear, falsifiable quantitative metrics (continuous decrease in activation energy and at least a 30% increase in bulk conductivity).",
+      "The underlying physical mechanism links macroscopic transport properties to dynamic lattice polarizability and electrostatic interactions.",
+      "The assumptions explicitly identify critical boundary conditions, including phase purity and constant mobile carrier concentration."
+    ],
+    "concerns": [
+      "Selenium substitution lowers the electronic bandgap, which can significantly elevate electronic conductivity and degrade electrochemical stability.",
+      "Lattice expansion resulting from the larger ionic radius of Se2- introduces steric volume effects (bottleneck widening) that are difficult to deconvolute from purely polarizability-driven effects.",
+      "In argyrodites, S2-/Cl- site disorder across the 48h and 4a crystallographic positions heavily dictates Li+ hopping pathways; preferential site substitution by Se could alter site disorder rather than simply lowering the migration barrier."
+    ],
+    "missing_evidence": [
+      "No experimental data or literature citations were provided to substantiate the baseline parameters or substitution limits.",
+      "No preliminary computational or experimental evidence assessing the extent of bandgap narrowing or electronic transference numbers upon Se substitution.",
+      "No crystallographic site-occupancy data or local structure analysis demonstrating that Se incorporates homogeneously without perturbing native argyrodite cage disorder."
+    ],
+    "suggested_improvement": "Complement the impedance testing with direct ionic transference number measurements (e.g., Hebb-Wagner DC polarization) to rule out electronic leakage, and incorporate density functional theory (DFT) calculations comparing fixed-volume vs. relaxed-volume migration barriers to separate steric lattice expansion from electrostatic polarizability effects."
+  },
+  {
+    "hypothesis_id": "H-002",
+    "testability": 4,
+    "falsifiability": 4,
+    "mechanism_quality": 2,
+    "experimental_feasibility": 3,
+    "evidence_status": "not_provided",
+    "strengths": [
+      "Provides a clear, quantitative prediction with an explicit falsification threshold (at least 50% reduction in specific grain-boundary resistance).",
+      "Specifies advanced, appropriate analytical tools (aberration-corrected STEM-EDS and localized impedance spectroscopy) capable of resolving interface chemistry and transport.",
+      "Transparently identifies critical assumptions regarding phase purity, dopant localization, and the dominance of space-charge resistance."
+    ],
+    "concerns": [
+      "Electrostatic inconsistency: Ta5+ substituting on a Zr4+ site carries an effective positive charge (donor defect). Introducing positive defects into or adjacent to an already positive grain-boundary core should increase, rather than screen, the positive potential and space-charge depletion.",
+      "Phase stability confounding: Pure un-doped LLZO typically crystallizes in a low-conductivity tetragonal phase at room temperature, whereas bulk Ta doping stabilizes the high-conductivity cubic phase, confounding interfacial effects with bulk structural transitions.",
+      "Kinetic and thermodynamic challenges: Selectively segregating Ta5+ strictly within 1 to 2 nm of the grain boundary via low-temperature annealing without bulk redistribution or precipitation of insulating secondary phases is difficult to control in refractory garnets."
+    ],
+    "missing_evidence": [
+      "No literature evidence or experimental data were supplied in the proposal.",
+      "No defect-chemical modeling or thermodynamic calculations demonstrating how donor substitution flattens band bending at a positive interface core.",
+      "Lack of baseline evidence establishing that space-charge effects, rather than poor interfacial contact or secondary phases, dominate grain-boundary resistance in the targeted baseline LLZO."
+    ],
+    "suggested_improvement": "Reformulate the mechanism using formal Kröger-Vink defect models and Poisson-Cahn space-charge theory to resolve the electrostatic sign contradiction, and replace the un-doped LLZO baseline with an isostructural cubic reference (such as uniformly low-doped cubic LLZO) to prevent bulk phase discrepancies from confounding interface measurements."
+  },
+  {
+    "hypothesis_id": "H-003",
+    "testability": 4,
+    "falsifiability": 4,
+    "mechanism_quality": 3,
+    "experimental_feasibility": 2,
+    "evidence_status": "not_provided",
+    "strengths": [
+      "Formulates a concrete, quantitative, and unambiguous prediction (at least one order-of-magnitude increase in tracer diffusion at 1.0% to 1.5% strain).",
+      "Selects appropriate high-resolution analytical techniques (reciprocal space mapping and isotope-exchange ToF-SIMS) capable of rigorous verification.",
+      "Explicitly identifies key confounding assumptions, such as stoichiometric invariance and defect limits."
+    ],
+    "concerns": [
+      "Poisson effect oversight: biaxial in-plane tensile strain results in out-of-plane compressive strain, which constricts vertical migration channels; conventional ToF-SIMS depth profiling measures out-of-plane transport, which could show reduced rather than enhanced diffusion.",
+      "Steric vs. electrostatic trade-off: Li-ion mobility in oxide frameworks depends on optimal bond distances and transition-state stabilization; simply expanding bottleneck volume does not guarantee lower activation barriers and can destabilize optimal hopping coordination.",
+      "Very low feasibility for maintaining 1.0% to 1.5% coherent elastic strain in complex garnet LLZO without exceeding critical thickness and triggering misfit dislocations, strain relaxation, or microcracking.",
+      "Extremely difficult to ensure identical Li stoichiometry, proton exchange levels, and oxygen vacancy concentrations across different growth substrates."
+    ],
+    "missing_evidence": [
+      "No experimental data or scientific literature sources were supplied in the proposal.",
+      "Missing density functional theory (DFT) or nudged elastic band (NEB) calculations quantifying the change in migration barrier as a function of anisotropic strain in cubic LLZO.",
+      "Missing empirical proof that defect-free cubic LLZO can sustain up to 1.5% coherent biaxial elastic strain."
+    ],
+    "suggested_improvement": "Specify the directional dimensionality of transport by comparing in-plane and out-of-plane diffusion to account for Poisson distortion, and lower the strain range to a more realistic coherent limit (<0.8%) supported by atomistic activation energy simulations."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "claim": "Isovalent substitution of framework anions with larger, more polarizable chalcogens increases bulk lithium-ion conductivity by lowering the electrostatic migration barrier.",
+    "mechanism": "Incorporation of larger and more polarizable anions (e.g., substituting sulfur with selenium in thiophosphate frameworks) reduces the effective lattice electronegativity and increases the polarizability of the framework. This dynamic deformability diminishes the electrostatic attraction experienced by mobile Li+ cations at transition states, lowering the migration activation energy along the interstitial hopping pathway.",
+    "prediction": "Replacing sulfur with selenium to synthesize Li6P(S1-xSex)5Cl (where 0 < x <= 0.25) without altering crystal symmetry will yield a continuous decrease in activation energy measured between 250 K and 350 K, leading to at least a 30% increase in bulk ionic conductivity at 298 K compared to the pristine Li6PS5Cl.",
+    "assumptions": [
+      "The argyrodite cubic phase remains isostructural without forming blocking secondary phases across the substitution range.",
+      "Mobile lithium-ion carrier concentration remains constant upon isovalent substitution.",
+      "Electronic conductivity remains sufficiently low to prevent mixed ionic-electronic conduction artifacts in standard impedance measurements."
+    ],
+    "falsification_test": "Synthesize phase-pure Li6P(S1-xSex)5Cl solid solutions and perform temperature-dependent electrochemical impedance spectroscopy (EIS). If the activation energy for bulk transport does not decrease or if bulk lithium-ion conductivity fails to increase by the predicted magnitude despite verified solid-solution formation, the hypothesis is falsified.",
+    "id": "H-001"
+  },
+  {
+    "claim": "Preferential segregation of donor aliovalent cations to grain boundaries reduces interfacial resistance by narrowing the space-charge depletion layer.",
+    "mechanism": "Polycrystalline oxide solid electrolytes typically develop positive grain-boundary core potentials, creating adjacent Li-ion depletion layers (space-charge zones) that impede cross-grain transport. Segregating high-valence donor cations (such as Ta5+ or Nb5+ onto Zr4+ sites) specifically at grain boundaries screens the positive core potential, flattening the electrostatic band bending and restoring local mobile Li+ concentration across interfaces.",
+    "prediction": "Engineered grain-boundary segregation of Ta5+ in polycrystalline Li7La3Zr2O12 (LLZO), achieved via controlled low-temperature annealing to limit bulk diffusion, will reduce the specific grain-boundary area resistance (R_gb) by at least 50% at 298 K relative to un-doped LLZO with equivalent average grain size.",
+    "assumptions": [
+      "Space-charge resistance is the dominant contributor to total grain-boundary resistance in the baseline material.",
+      "Dopant segregation remains confined within 1 to 2 nanometers of the grain-boundary plane.",
+      "The dopant does not induce local structural amorphization or form an electrically insulating intergranular phase."
+    ],
+    "falsification_test": "Prepare polycrystalline LLZO with and without verified nanoscale grain-boundary segregation of Ta5+ (confirmed by aberration-corrected STEM-EDS). Measure grain-boundary resistance using micro-contact or high-frequency impedance spectroscopy. If samples exhibiting donor segregation show unchanged or increased specific grain-boundary resistance compared to the baseline, the hypothesis is falsified.",
+    "id": "H-002"
+  },
+  {
+    "claim": "Elastic biaxial tensile strain enhances Li-ion percolation rates by enlarging the geometric bottleneck area of migration channels.",
+    "mechanism": "In crystalline framework electrolytes, the rate-limiting step of Li-ion hopping is the passage through oxygen- or sulfur-delimited geometric bottlenecks. Imposing coherent in-plane biaxial tensile strain expands the unit cell volume and increases the cross-sectional area of these bottlenecks, lowering steric hindrance without disrupting long-range network topology.",
+    "prediction": "Coherently strained epitaxial thin films of cubic garnet Li7La3Zr2O12 grown on lattice-mismatched substrates under 1.0% to 1.5% biaxial tensile strain will display an increase in the tracer diffusion coefficient of Li (D_Li*) of at least one order of magnitude at 300 K compared to relaxed, unstrained films of identical thickness and composition.",
+    "assumptions": [
+      "The applied strain is accommodated elastically without the generation of misfit dislocations or microcracks exceeding critical defect thresholds.",
+      "Film stoichiometry, including Li content and oxygen vacancy levels, remains unchanged during epitaxial deposition on different substrates.",
+      "The structural anisotropy induced by strain does not close off three-dimensional percolating migration pathways."
+    ],
+    "falsification_test": "Deposit epitaxial LLZO films under varying states of verified elastic strain (monitored by high-resolution X-ray diffraction reciprocal space mapping). Measure tracer diffusion coefficients via isotope-exchange depth profiling (using 6Li/7Li and time-of-flight secondary ion mass spectrometry). If crack-free films with 1.0% to 1.5% tensile strain do not show an order-of-magnitude increase in D_Li* relative to unstrained films, the hypothesis is falsified.",
+    "id": "H-003"
+  }
+]

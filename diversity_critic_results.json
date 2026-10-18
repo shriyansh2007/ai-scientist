@@ -1,0 +1,32 @@
+[
+  {
+    "hypothesis_1_id": "H-001",
+    "hypothesis_2_id": "H-002",
+    "mechanism_difference": "Hypothesis A focuses on modifying bulk lattice polarizability via isovalent substitution to lower the electrostatic transition-state migration barrier for Li+ hopping. In contrast, Hypothesis B focuses on interfacial space-charge engineering, using aliovalent donor segregation at grain boundaries to screen positive core potentials and reduce Li-depleted space-charge zones.",
+    "material_or_intervention_difference": "Hypothesis A applies bulk isovalent anion exchange (Se substituting S) within a thiophosphate argyrodite framework (Li6PS5Cl). Hypothesis B applies localized aliovalent cation segregation (Ta5+ on Zr4+ sites) at the grain boundaries of an oxide garnet electrolyte (LLZO).",
+    "prediction_difference": "Hypothesis A predicts a decrease in bulk activation energy and a >=30% increase in bulk conductivity. Hypothesis B predicts a >=50% reduction in specific grain-boundary resistance (R_gb) without focusing on bulk activation energy.",
+    "diversity_assessment": "distinct",
+    "reasoning": "The two hypotheses address completely different transport regimes (bulk intragranular hopping vs. cross-grain interfacial resistance) through distinct physical phenomena (lattice polarizability vs. space-charge electrostatic screening). Their material systems, interventions, and falsification tests are experimentally decoupled.",
+    "recommended_action": "retain_both"
+  },
+  {
+    "hypothesis_1_id": "H-001",
+    "hypothesis_2_id": "H-003",
+    "mechanism_difference": "Hypothesis A focuses on an electronic and electrostatic mechanism where polarizable anion substitution softens framework electrostatics and lowers transition-state activation barriers. In contrast, Hypothesis B focuses on a mechanical and geometric mechanism where macroscopic tensile strain widens the physical cross-sectional area of interstitial migration bottlenecks.",
+    "material_or_intervention_difference": "Hypothesis A employs chemical compositional tuning (isovalent S-to-Se anion substitution in bulk thiophosphate argyrodite Li6PS5Cl), whereas Hypothesis B employs physical strain engineering (substrate-induced coherent biaxial tensile strain on epitaxial thin films of cubic garnet Li7La3Zr2O12).",
+    "prediction_difference": "Hypothesis A predicts a continuous reduction in activation energy across 250–350 K yielding a moderate (>=30%) increase in bulk ionic conductivity measured via electrochemical impedance spectroscopy. Hypothesis B predicts an order-of-magnitude increase in the lithium tracer diffusion coefficient (D_Li*) at 300 K measured by isotope exchange and secondary ion mass spectrometry.",
+    "diversity_assessment": "distinct",
+    "reasoning": "The two hypotheses investigate completely different fundamental driving forces (polarizability/electrostatics vs. steric/elastic strain) using entirely different interventions (chemical solid-solution substitution vs. epitaxial thin-film strain engineering) in distinct crystallographic families (thiophosphate argyrodites vs. oxide garnets). Their experimental metrics and falsification tests are likewise independent.",
+    "recommended_action": "retain_both"
+  },
+  {
+    "hypothesis_1_id": "H-002",
+    "hypothesis_2_id": "H-003",
+    "mechanism_difference": "Hypothesis A proposes an electrostatic interfacial mechanism where aliovalent donor dopants screen the positive core potential at grain boundaries to mitigate space-charge depletion layers. Hypothesis B proposes a mechanical/geometric bulk-transport mechanism where biaxial tensile strain expands unit cell volume and increases bottleneck cross-sectional area to lower steric barriers to ion hopping.",
+    "material_or_intervention_difference": "Hypothesis A investigates chemical doping and nanoscale segregation of aliovalent cations (Ta5+/Nb5+) at grain boundaries in polycrystalline LLZO via thermal annealing. Hypothesis B investigates physical elastic strain engineering via coherent epitaxial thin-film growth of LLZO on lattice-mismatched substrates without intentional chemical dopants.",
+    "prediction_difference": "Hypothesis A predicts a reduction in interfacial specific grain-boundary resistance (R_gb) by at least 50% at 298 K. Hypothesis B predicts a bulk transport enhancement, specifically an order-of-magnitude increase in the Li tracer diffusion coefficient (D_Li*) at 300 K.",
+    "diversity_assessment": "distinct",
+    "reasoning": "The two hypotheses target completely different physical phenomena (electrostatic space-charge screening at 2D interfaces versus elastic strain-induced crystallographic dilation in 3D bulk/films), use entirely distinct experimental interventions (dopant segregation vs. epitaxial strain), and yield distinct, non-overlapping measurable predictions (interfacial impedance reduction vs. bulk tracer diffusion enhancement).",
+    "recommended_action": "retain_both"
+  }
+]
